@@ -1,5 +1,5 @@
-# 9 construction pages
-
+# construction pages
+[website](https://slugbyte.github.io/under-construction/)
 ```
 < under-construction >
  --------------------
@@ -23,6 +23,13 @@
 ```
 [lulwat?](https://twitter.com/MelkeyDev/status/1631335803938037761?s=20)
 
-## CREDITS
-#### FONT
-* [00-construction-html's plastic explosive font](https://www.1001fonts.com/plastic-explosive-font.html)
+# TODO
+- [x] [single html](./00_construction_html)
+- [ ] static site
+- [ ] vanilla js with build tools
+- [ ] typescript with build tools
+- [ ] clojurescript 
+- [ ] the c programming language
+- [ ] ziglang
+- [ ] rust
+- [ ] bash 😂

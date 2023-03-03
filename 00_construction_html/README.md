@@ -16,3 +16,4 @@ better how functional css librarys work :)
 # Resources
 * [tachyons website ](https://tachyons.io/) - a rad functional css library
 * [a video about tachyons and functional css](https://www.youtube.com/watch?v=r56fRaWth58)
+* [plastic explosive font](https://www.1001fonts.com/plastic-explosive-font.html)

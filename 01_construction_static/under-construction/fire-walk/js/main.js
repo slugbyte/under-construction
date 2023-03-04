@@ -200,7 +200,7 @@ const stateResetListOffsetPostition = (should_random) => {
  * update the direction of an offset_position in state.list_offset_position
  */
 const stateUpdateOffsetPosition = (index, direction) => {
-  const offset_amount = 5
+  const offset_amount = 1
   const list_offset_position = state.list_offset_position
   if (0 === list_offset_position.length) {
     return
@@ -291,7 +291,7 @@ const main = () => {
         stateUpdateEveryOffsetPosition()
         renderUnderConstructionOffset()
       })
-    }, 25)
+    }, 10)
   })
 }
 

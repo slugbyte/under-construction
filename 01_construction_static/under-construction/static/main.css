@@ -8,6 +8,13 @@ body {
 
 img {
   max-width: 40px;
+  z-index: 0;
+}
+
+pre {
+  color: green;
+  background: white;
+  padding: 1rem;
 }
 
 .title {
@@ -45,20 +52,29 @@ img {
   /* border-left: 0.5rem solid pink; */
 }
 
-#smasher {
+#smasher,#healer{
   background: #faa;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  border-radius: none;
+  border: none;
   color: red;
+  z-index: 999;
 }
 
-#smasher:hover {
+#smasher:hover,#healer:hover {
   color: white;
   background: #f88;
 }
 
-#smasher:active {
+#smasher:active,#healer:active {
   color: white;
   background: #f55;
+}
+
+.view-count-click {
+  position: fixed;
+  /* top: 0; */
+  /* right: 0; */
+  color: yellow;
+  text-shadow: 0 0 10px yellow;
+  inner-shadow: 0 0 2px white;
 }

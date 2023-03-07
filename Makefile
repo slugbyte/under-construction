@@ -1,4 +1,4 @@
-all: make-scaffold build-hello-my-name-is build-fire-walk
+all: make-scaffold build-hello-my-name-is build-fire-walk build-television
 
 make-scaffold:
 	mkdir -p docs/data/img
@@ -13,3 +13,9 @@ build-fire-walk:
 	rm -rf ./docs/fire-walk
 	cp -r ./fire-walk/under-construction/fire-walk ./docs/
 	cp ./fire-walk/index.html ./docs/fire-walk/
+
+build-television:
+	rm -rf ./docs/television
+	cd ./television && npx vite build
+	cp -rf ./television/dist ./docs/television
+

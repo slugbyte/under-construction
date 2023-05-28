@@ -88,7 +88,6 @@ export const El = (arg) => {
 
   // store mophedom hooks of first call with this id
   if (id && hook) {
-    console.log({'boom': 'moo'})
     hook = hook || {}
     hook_stash[id] = hook_stash[id] || {}
     Object.entries(hook).forEach(([hook_name, hook_handler]) => {
